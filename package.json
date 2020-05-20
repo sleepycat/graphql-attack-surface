@@ -1,0 +1,29 @@
+{
+  "name": "graphql-attack-surface",
+  "version": "0.0.1",
+  "description": "A tool to explore the attack surface of a GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dbg": "node --inspect-brk node_modules/.bin/jest --runInBand"
+  },
+  "keywords": [],
+  "author": "Mike Williamson",
+  "license": "MIT",
+  "bin": "src/cli.js",
+  "files": ["src/"],
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "@graphql-toolkit/core": "^0.10.6",
+    "@graphql-toolkit/json-file-loader": "^0.10.6",
+    "@graphql-toolkit/url-loader": "^0.10.6",
+    "chalk": "^4.0.0",
+    "cross-fetch": "^3.0.4",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^5.0.0",
+    "meow": "^7.0.1"
+  }
+}
