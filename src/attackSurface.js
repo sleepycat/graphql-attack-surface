@@ -1,6 +1,6 @@
-const { UrlLoader } = require('@graphql-toolkit/url-loader')
-const { loadSchema } = require('@graphql-toolkit/core')
-const { JsonFileLoader } = require('@graphql-toolkit/json-file-loader')
+const { loadSchema } = require('@graphql-tools/load')
+const { UrlLoader } = require('@graphql-tools/url-loader')
+const { JsonFileLoader } = require('@graphql-tools/json-file-loader')
 
 async function attackSurface(schemaLocation) {
   const schema = await loadSchema(schemaLocation, {

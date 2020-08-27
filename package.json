@@ -11,19 +11,19 @@
   "author": "Mike Williamson",
   "license": "MIT",
   "bin": "src/cli.js",
-  "files": ["src/"],
+  "files": [
+    "src/"
+  ],
   "devDependencies": {
     "jest": "^26.0.1",
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "@graphql-toolkit/core": "^0.10.6",
-    "@graphql-toolkit/json-file-loader": "^0.10.6",
-    "@graphql-toolkit/url-loader": "^0.10.6",
+    "@graphql-tools/json-file-loader": "^6.1.0",
+    "@graphql-tools/load": "^6.1.0",
+    "@graphql-tools/url-loader": "^6.1.0",
     "chalk": "^4.0.0",
-    "cross-fetch": "^3.0.4",
-    "graphql": "^15.0.0",
-    "graphql-tools": "^5.0.0",
+    "graphql": "^15.3.0",
     "meow": "^7.0.1"
   }
 }
