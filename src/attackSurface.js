@@ -19,7 +19,6 @@ async function attackSurface(schemaLocation) {
         if (!attackSurface[field]) {
           attackSurface[field] = [{ [name]: type.toString() }]
         } else {
-          debugger
           attackSurface[field].push({ [name]: type.toString() })
         }
       }
